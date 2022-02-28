@@ -1,6 +1,0 @@
-.youtubei.googleapis.com
-.youtube.com
-.googlevideo.com
-.youtube-nocookie.com
-.youtu.be
-.music.youtube.com
