@@ -23,3 +23,5 @@ payload:
   - DOMAIN-SUFFIX,qkl123.com
   - DOMAIN-SUFFIX,tradingview.com
   - DOMAIN-SUFFIX,aimoon.com
+  - DOMAIN-SUFFIX,ftx.com
+  - DOMAIN-SUFFIX,ftx.cool
