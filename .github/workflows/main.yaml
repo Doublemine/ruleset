@@ -1,0 +1,14 @@
+name: CI
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+  steps:
+    - run: curl https://purge.jsdelivr.net/gh/Doublemine/ruleset@master/payload/cex.yaml
+    - run: curl https://purge.jsdelivr.net/gh/Doublemine/ruleset@master/payload/netflix.yaml
+    - run: curl https://purge.jsdelivr.net/gh/Doublemine/ruleset@master/payload/youtube.yaml
+    - run: curl https://purge.jsdelivr.net/gh/Doublemine/ruleset@master/payload/coin.yaml
